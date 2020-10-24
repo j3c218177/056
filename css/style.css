@@ -135,6 +135,25 @@
   margin-bottom: 10vh;
 }
 
+#special-link:hover #special-btn {
+  background-color: #333;
+  color: #fff;
+}
+
+#special-link:hover .left-content {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/icon_special1.png);
+}
+
+#special-link:hover .right-content {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/icon_special2.png);
+}
+
+.btn-special {
+  height: 3em; 
+  position: relative;
+  bottom: 48px;
+}
+
 @media (max-width: 960px) {
     #generate-section-3,
     .seksi-peta {
@@ -242,6 +261,25 @@
   background-image: url(../images/img_work2.png);
 }
 
+#work-link:hover #work-btn {
+  background-color: #333;
+  color: #fff;
+}
+
+#work-link:hover .left-work {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/img_work1.png);
+}
+
+#work-link:hover .right-work {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/img_work2.png);
+}
+
+.btn-work {
+  height: 3em; 
+  position: relative;
+  bottom: 50px;
+}
+
 .seksi-recruit {
   background-image: url(../images/bg_recruit.png);
   background-position: center right;
@@ -260,6 +298,17 @@
 .seksi-recruit h1 {
   font-size: 7vmax;
   font-weight: 600;
+}
+
+.btn-recruit{
+  width: 60%;
+  position: relative;
+  right: 0;
+}
+
+.btn-recruit:hover{
+  color:white;
+  background-color: black;
 }
 
 .topbutton{
