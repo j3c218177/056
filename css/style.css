@@ -233,6 +233,25 @@
   background-image: url(../images/icon_gedung.png);
 }
 
+#company-link:hover #company-btn {
+  background-color: #333;
+  color: #fff;
+}
+
+#company-link:hover .comp-logo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/icon_kontenlogo.png);
+}
+
+#company-link:hover .comp-gedung {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/icon_gedung.png);
+}
+
+.btn-company {
+  height: 3em; 
+  position: relative;
+  bottom: 48px;
+}
+
 .seksi-work {
   background-image: url(../images/bg_work.png);
   background-position: center right;
