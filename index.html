@@ -10,14 +10,15 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        
 
         <!-- Font Awesome CSS-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- Custom Style -->
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="js/style.js">
+
+        <!--Font-->
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
 
         <title>PT PIN</title>
     </head>
@@ -33,7 +34,7 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="">MENU<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -53,7 +54,7 @@
     </div>
 
     &nbsp;
-    <div class="container">
+    <div class="container" id="atas">
         &nbsp;
     </div>
 
@@ -64,29 +65,188 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" 
-            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" 
-            role="img" aria-label="Placeholder: First slide"><title>Placeholder</title><rect width="100%" 
-            height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">
-            First slide</text></svg>
-          </div>
-          <div class="carousel-item">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" 
-            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" 
-            role="img" aria-label="Placeholder: Second slide"><title>Placeholder</title><rect width="100%" 
-            height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">
-            Second slide</text></svg>
-          </div>
-          <div class="carousel-item">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" 
-            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" 
-            role="img" aria-label="Placeholder: Third slide"><title>Placeholder</title><rect width="100%" 
-            height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">
-            Third slide</text></svg>
-          </div>
+            <button class="btn-sm btn-warning-custom my-2 my-sm-0">SCROLL</button>
+            <div class="text-white w-100 text-center d-none d-xl-block" id="scrollbtn">
+                <a href="#end"><button class="btn btn-warning-custom text-white my-2 my-sm-0"> SCROLL </button></a>
+            </div>
+            <div class="carousel-item active">
+                <img src="images/bg_city.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item active">
+                <img src="images/bg_city.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item active">
+                <img src="images/bg_city.jpg" class="d-block w-100" alt="">
+            </div>
         </div>
-      </div>
+    </div>
+
+    <section class="seksi-peta">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-4 col-md-2">
+                    <p class="vertikal mr-auto ml-auto">この文章はダミーです。文字の大きさ、量、字間、<br>行間等を確認するために入れています。<br>この文章はダミーです。文字の大きさ、量、字間、<br>行間等を確認するために入れています。</p>
+                </div>
+                <div class="col-4 col-md-2">
+                    <div class="row">
+                        <div class="col" style="padding-right: 0.5vh;"> 
+                        <p class="vertikal ml-auto highlight">行間等を確認するために入れています。</p>
+                        </div> 
+                        <div class="col" style="padding-left: 0.5vh;"> 
+                        <p class="vertikal mr-auto highlight">この文章はダミーです。文字の大きさ、量、字間、</p>
+                        </div>
+                    </div>        
+                </div>
+                <div class="col-4 col-md-2">
+                    <p class="vertikal mr-auto ml-auto">この文章はダミーです。文字の大きさ、量、字間、<br>行間等を確認するために入れています。<br>この文章はダミーです。文字の大きさ、量、字間、<br>行間等を確認するために入れています。</p>
+                </div>
+                <div class="col-6 col-md-2">
+                    <p class="vertikal mr-auto ml-auto">この文章はダミーです。文字の大きさ、量、字間、<br>行間等を確認するために入れています。</p>
+                </div>
+                <div class="col-6 col-md-2">
+                    <p class="vertikal tebal mr-auto highlight">この文章はダミーです。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="seksi-special">
+    <div class="container text-xl-left text-center">
+        <p>〇〇〇 スペシャルコンテンツ</p>
+        <h1>
+        SPECIAL CONTENTS
+        </h1>
+        <p class="strip-special d-none d-xl-block"></p>
+        &nbsp;
+    </div>
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <div class="col d-flex flex-col justify-content-center justify-content-xl-end">
+                <div class="content left-content">
+                <div class="box whitebox">
+                    <div class="d-flex flex-row justify-content-between align-items-center h-100">
+                    <a class="font-weight-bold ml-4 text-black" href="">不動産業界のいまを知る</a>
+                    <a class="font-weight-bold mr-4">&gt;</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col d-flex flex-col justify-content-center justify-content-xl-start mt-5">
+                <div class="content right-content">
+                    <div class="box blackbox">
+                        <div class="d-flex flex-row justify-content-between align-items-center h-100">
+                        <a class="font-weight-bold ml-4 text-white" href="">不動産業界のいまを知る</a>
+                        <a class="font-weight-bold mr-4">&gt;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="ketiga">
+        <div class="container text-xl-right text-center">
+            <p>〇〇〇について</p>
+            <h1>COMPANY</h1>
+            <p class="strip-special ml-auto d-none d-xl-block"></p>
+            &nbsp;
+        </div>
+        <div class="container-fluid mt-4">
+            <div class="row">
+                <div class="col d-flex flex-col justify-content-xl-end justify-content-center">
+                <div class="content-kecil">
+                    <div class="box whitebox">
+                    <div class="d-flex flex-row justify-content-between align-items-center h-100">
+                        <a class="font-weight-bold ml-4">〇〇〇について</a>
+                        <a class="font-weight-bold mr-4">&gt;</a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col d-flex flex-col justify-content-center mt-2">
+                <div class="content-kecil tengah">
+                    <div class="box whitebox">
+                    <div class="d-flex flex-row justify-content-between align-items-center h-100">
+                        <a class="font-weight-bold ml-4">〇〇〇の強み</a>
+                        <a class="font-weight-bold mr-4">&gt;</a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col d-flex flex-col justify-content-xl-start justify-content-center mt-xl-5 mt-2">
+                <div class="content-kecil">
+                    <div class="box whitebox">
+                    <div class="d-flex flex-row justify-content-between align-items-center h-100">
+                        <a class="font-weight-bold ml-4">〇〇〇について</a>
+                        <a class="font-weight-bold mr-4">&gt;</a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="seksi-work">
+        <div class="container text-xl-left text-center">
+            <p>〇〇〇の働き方</p>
+            <h1>
+            WORK
+            </h1>
+            <p class="strip-special d-none d-xl-block"></p>
+            &nbsp;
+        </div>
+        <div class="container-fluid mt-4">
+            <div class="row">
+                <div class="col d-flex flex-col justify-content-center justify-content-xl-end">
+                    <div class="content left-work">
+                    <div class="box whitebox">
+                        <div class="d-flex flex-row justify-content-between align-items-center h-100">
+                        <a class="font-weight-bold ml-4 text-black" href="">地域で成長する先輩の声</a>
+                        <a class="font-weight-bold mr-4">&gt;</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col d-flex flex-col justify-content-center justify-content-xl-start mt-5">
+                    <div class="content right-work">
+                        <div class="box whitebox">
+                            <div class="d-flex flex-row justify-content-between align-items-center h-100">
+                            <a class="font-weight-bold ml-4 text-black" href="">地域密着で働く魅力</a>
+                            <a class="font-weight-bold mr-4">&gt;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="seksi-recruit">
+        <div class="container text-xl-left text-center">
+            <p>〇〇〇の採用情報</p>
+            <h1>
+            RECRUIT
+            </h1>
+            <p class="strip-special d-none d-xl-block"></p>
+            &nbsp;
+        </div>
+        <div class="container-fluid mt-4">
+            <div class="row">
+                <div class="col d-flex flex-col justify-content-center justify-content-xl-end">
+                    <a href="" class="btn btn-white">
+                        <i class="fa fa-list-alt"> 募集要項 </i>
+                    </a>
+                </div>
+                <div class="col d-flex flex-col justify-content-center justify-content-xl-start mt-5">
+                    <a href="" class="btn btn-white">
+                        <i class="fa fa-question-circle"> FAQ </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <div class="container">
         &nbsp;
@@ -94,7 +254,7 @@
         <div class="row">
             <div class="col">
                 <a href="" class="btn btn-white">
-                    <i class="fa fa-list-alt"> FAQ </i>
+                    <i class="fa fa-list-alt"> 募集要項 </i>
                 </a>
             </div>
             <div class="col">
@@ -107,55 +267,70 @@
         &nbsp;
     </div>
 
+    <div class="row">
+        <div class="col text-center">
+            <a href="#atas" class="oswald">
+                <div class="btn text-center">
+                GO TOP
+                </div>
+            </a>
+        </div>
+    </div>
+
     <div class="card bg-card">
             &nbsp;
         <div class="container">
         <div class="row">
+            <div class="col-sm-1 col-sm-2">
+                <div class="text-white">
+                    <h6 class="text-white">MENU</h6>
+                    <ul class="yu dashed">
+                        <li><a class="text-white" href="">メニュー</a></li>
+                        <li><a class="text-white" href="">メニュー</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-1 col-sm-2">
+                <div class="text-justify text-white">
+                    <h6 class="text-white">MENU</h6>
+                    <ul class="yu dashed">
+                        <li><a class="text-white" href="">メニュー</a></li>
+                        <li><a class="text-white" href="">メニュー</a></li>
+                        <li><a class="text-white" href="">メニュー</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-1 col-sm-2">
+                <div class="text-justify text-white">
+                    <h6 class="text-white">MENU</h6>
+                    <ul class="yu dashed">
+                        <li><a class="text-white" href="">メニュー</a></li>
+                        <li><a class="text-white" href="">メニュー</a></li>
+                    </ul>
+                </div>
+            </div>
             <div class="col-sm-1 col-sm-2 text-center">
                 <div class="text-justify text-white">
-                    <h5>MENU</h5>
-                    &nbsp;
-                    <a class="nav-link text-white" href="">メニュー</a><br>
-                    <a class="nav-link text-white" href="">メニュー</a>
+                    <h6 class="text-white">MENU</h6>
+                    <ul class="yu dashed">
+                        <li><a class="text-white" href="">メニュー</a></li>
+                        <li><a class="text-white" href="">メニュー</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="col-sm-1 col-sm-2 text-center">
                 <div class="text-justify">
-                    <h5 class="text-white">MENU</h5>
-                    &nbsp;
-                    <a class="nav-link text-white" href="">メニュー</a><br>
-                    <a class="nav-link text-white" href="">メニュー</a>
-                </div>
-            </div>
-            <div class="col-sm-1 col-sm-2 text-center">
-                <div class="text-justify">
-                    <h5 class="text-white">MENU</h5>
-                    &nbsp;
-                    <a class="nav-link text-white" href="">メニュー</a><br>
-                    <a class="nav-link text-white" href="">メニュー</a>
-                </div>
-            </div>
-            <div class="col-sm-1 col-sm-2 text-center">
-                <div class="text-justify">
-                    <h5 class="text-white">MENU</h5>
-                    &nbsp;
-                    <a class="nav-link text-white" href="">メニュー</a><br>
-                    <a class="nav-link text-white" href="">メニュー</a>
-                </div>
-            </div>
-            <div class="col-sm-1 col-sm-2 text-center">
-                <div class="text-justify">
-                    <img src="images/bgputih1.png" alt="" width="100%">
+                    <img src="images/bg_putih1.png" alt="" width="100%">
 					<div class="text-justify">
-						<p class="text-white">〇〇〇株式会社</p>
+						<a class="text-white" href="">〇〇〇株式会社</a>
 					</div>
                 </div>
             </div>
             <div class="col-sm-1 col-sm-2 text-center">
                 <div class="text-justify">
-                    <img src="images/bgputih1.png" alt="" width="100%">
+                    <img src="images/bg_putih1.png" alt="" width="100%">
 					<div class="text-justify">
-						<p class="text-white">〇〇〇株式会社</p>
+						<a class="yu text-white" href="">〇〇〇株式会社</a>
 					</div>
                 </div>
             </div>
@@ -163,7 +338,7 @@
         </div>
     </div>
 
-    <div class="card text-center bg-footer text-white">
+    <div class="card text-center bg-footer text-white" id="end">
         <div class="card-body">
             &copy; 0000 SAMPLE Inc. All Rights Reserved
         </div>

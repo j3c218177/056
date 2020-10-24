@@ -1,3 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+  }
+
+.text-black{
+  color: black;
+}
+
+#scrollbtn {
+  font-size: 0.5em;
+  z-index: 10; 
+  position: absolute; 
+  top: 85vh;
+}
+
 .bg-header{
     background-color:#3182D7;
 }
@@ -40,3 +57,207 @@
     background-color: white;
     border-color: white;
 }
+
+.seksi-peta {
+    background-image: url(../images/bg_peta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+}
+
+.vertikal {
+    font-family: "Noto Sans JP", sans-serif;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    line-height: 4.5vh;
+    margin-top: 16vh;
+    font-size: 2vh;
+}
+
+.tebal {
+    margin-top: 13vh;
+    font-weight: 700;
+    font-size: 3vh;
+    letter-spacing: 0.3vh;
+}
+
+.highlight {
+    height: 10;
+    background: linear-gradient(90deg, #ec9700 50%, transparent 50%);
+}
+
+.seksi-special {
+    background-image: url(../images/bg_special.png);
+    background-position: center right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vh;
+    margin-top: 10vh;
+}
+
+.seksi-special p {
+  margin-bottom: 0;
+  margin-top: 1vh;
+}
+.seksi-special h1 {
+  font-size: 7vmax;
+  font-weight: 600;
+}
+.strip-special {
+  width: 1vw;
+  height: 1.2vh;
+  background-color: black;
+  margin-bottom: 10vh;
+}
+
+@media (max-width: 960px) {
+    #generate-section-3,
+    .seksi-peta {
+      background-image: none !important;
+    }
+    #generate-section-3,
+    .seksi-special {
+      background-image: none !important;
+    }
+    #generate-section-3,
+    .seksi-work {
+      background-image: none !important;
+    }
+}
+
+.box {
+  width: 50%;
+  height: 14%;
+  margin-top: auto;
+}
+
+.blackbox {
+  color: white;
+  background-color: #333333;
+}
+
+.whitebox {
+  color: black;
+  background-color: white;
+}
+
+.content {
+  display: flex;
+  width: 88vh;
+  height: 62vh;
+  background-size: cover;
+}
+
+.left-content {
+  background-image: url(../images/icon_special1.png);
+}
+
+.right-content {
+  background-image: url(../images/icon_special2.png);
+}
+
+.ketiga {
+  background-image: url(../images/bg_company.png);
+  background-position: center right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100vh;
+  margin-top: 5vh;
+}
+
+.ketiga h1 {
+  font-size: 7vmax;
+  font-weight: 600;
+}
+
+.ketiga p {
+  margin-bottom: 0;
+  margin-top: 1vh;
+}
+
+.content-kecil {
+  display: flex;
+  width: 60vh;
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+  background-image: url(../images/icon_kontenlogo.png);
+}
+
+.tengah {
+  background-image: url(../images/icon_gedung.png);
+}
+
+.seksi-work {
+  background-image: url(../images/bg_work.png);
+  background-position: center right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100vh;
+  margin-top: 10vh;
+}
+
+.seksi-work p {
+  margin-bottom: 0;
+  margin-top: 1vh;
+}
+
+.seksi-work h1 {
+  font-size: 7vmax;
+  font-weight: 600;
+}
+
+.left-work {
+  background-image: url(../images/img_work1.png);
+}
+
+.right-work {
+  background-image: url(../images/img_work2.png);
+}
+
+.seksi-recruit {
+  background-image: url(../images/bg_recruit.png);
+  background-position: center right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100vh;
+  margin-top: 10vh;
+}
+
+.seksi-recruit p {
+  margin-bottom: 0;
+  margin-top: 1vh;
+}
+
+.seksi-recruit h1 {
+  font-size: 7vmax;
+  font-weight: 600;
+}
+
+.topbutton{
+    position: relative;
+    top: 350px;  
+  }
+
+ul {
+    margin-left: 0px;
+  }
+  ul.dashed {
+    list-style-type: none;
+  }
+  ul.dashed > li {
+    text-indent: -5px;
+  }
+  ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+  }
