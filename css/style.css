@@ -46,10 +46,29 @@
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .btn-header {
+    transition: none;
+  }
+}
+
 .btn-warning-custom {
     color: white;
     background-color: #ffc107;
     border-color: #ffc107;
+  }
+
+.btn-warning-custom:focus, .btn-warning-custom.focus {
+    color: #212529;
+    background-color: #ffd65c;
+    border-color: #ffd65c;
+    box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
+}
+
+.btn-warning-custom:hover {
+    color: white;
+    background-color: #ffd65c;
+    border-color: #ffd65c;
   }
 
 .btn-white {
@@ -162,7 +181,7 @@
   background-image: url(../images/icon_special2.png);
 }
 
-.ketiga {
+.seksi-company {
   background-image: url(../images/bg_company.png);
   background-position: center right;
   background-size: contain;
@@ -172,17 +191,17 @@
   margin-top: 5vh;
 }
 
-.ketiga h1 {
+.seksi-company h1 {
   font-size: 7vmax;
   font-weight: 600;
 }
 
-.ketiga p {
+.seksi-company p {
   margin-bottom: 0;
   margin-top: 1vh;
 }
 
-.content-kecil {
+.comp-logo {
   display: flex;
   width: 60vh;
   background-size: cover;
@@ -191,7 +210,7 @@
   background-image: url(../images/icon_kontenlogo.png);
 }
 
-.tengah {
+.comp-gedung {
   background-image: url(../images/icon_gedung.png);
 }
 
@@ -244,9 +263,17 @@
 }
 
 .topbutton{
-    position: relative;
-    top: 350px;  
-  }
+  position: relative;
+  top: 350px;  
+}
+
+.toplink{
+  color:#2065c5;
+}
+
+.toplink:hover{
+  color:#4a79b9;
+}
 
 ul {
     margin-left: 0px;
